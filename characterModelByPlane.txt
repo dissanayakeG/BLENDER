@@ -1,3 +1,22 @@
+Basic ShortCuts
+===============
+
+Shift+A---->new object
+Tab-------->Edit mode
+Z---------->WireFrame/Solid view
+E---------->Extrude
+G---------->Move
+R---------->Rotate
+X---------->Delete
+C---------->Paint select
+B---------->Box select
+Ctrl+R----->Loop cuts
+Ctrl+Tab--->Toggle mode
+Ctrl+P----->keep offset
+Alt+P------>clear parents
+
+
+
 CREATE CHARACTER BY PLAIN
 =========================
 
@@ -25,7 +44,7 @@ This helps to rotate multuiple bones at same times (like for fingers)
 R
 X twise
 
-Alt +R to reset pose to base
+Alt +R and Alt +  to reset pose to base
 
 when animations keep in mind that before adding location rotations by I select all bones by hitting A;
 
@@ -36,7 +55,17 @@ A to select all bones
 hit I
 select location and rotation
 
+Connect more bones(In Edit Mode only)
+-------------------------------------
 
+select two or more bones with pressing shift
+Ctrl+P ->keep offset
+
+Disonnect more bones(In Edit Mode only)
+-------------------------------------
+
+select two or more bones with pressing shift
+Alt+P ->clear parents
 
 
 
