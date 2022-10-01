@@ -1,0 +1,50 @@
+CREATE CHARACTER BY PLAIN
+=========================
+
+add plain(shift+a)
+add modifiers
+	1. Mirror
+	2. skin
+	3. subdivision surface
+	
+Tab to edit mode
+Z to wireframe/solid
+M->collaps (this make goal like object)
+click mark root(now show as object)
+
+To scale Ctrl+A (S use in objects)
+Ctrl + R for loop cuts
+Ctrl + Shift + B for Duplicate loop cuts
+
+Ctrl +Tab to toggle modes (Edit/pose...)
+
+craete armature
+select few bones
+Hit period->select individual origins
+This helps to rotate multuiple bones at same times (like for fingers)
+R
+X twise
+
+Alt +R to reset pose to base
+
+when animations keep in mind that before adding location rotations by I select all bones by hitting A;
+
+ex): 
+Open time sheet
+select a bone and change position
+A to select all bones
+hit I
+select location and rotation
+
+
+
+
+
+
+
+
+
+
+
+
+
