@@ -1,9 +1,9 @@
-Basic ShortCuts
+Basic Short Cuts
 ===============
 
 Shift+A---->new object
 Tab-------->Edit mode
-Z---------->WireFrame/Solid view
+Z---------->Wire Frame/Solid view
 E---------->Extrude
 G---------->Move
 R---------->Rotate
@@ -27,8 +27,8 @@ add modifiers
 	3. subdivision surface
 	
 Tab to edit mode
-Z to wireframe/solid
-M->collaps (this make goal like object)
+Z to wire frame/solid
+M->collapse (this make goal like object)
 click mark root(now show as object)
 
 To scale Ctrl+A (S use in objects)
@@ -37,12 +37,12 @@ Ctrl + Shift + B for Duplicate loop cuts
 
 Ctrl +Tab to toggle modes (Edit/pose...)
 
-craete armature
+create armature
 select few bones
 Hit period->select individual origins
-This helps to rotate multuiple bones at same times (like for fingers)
+This helps to rotate multiple bones at same times (like for fingers)
 R
-X twise
+X twice
 
 Alt +R and Alt +  to reset pose to base
 
@@ -56,24 +56,51 @@ hit I
 select location and rotation
 
 Connect more bones(In Edit Mode only)
--------------------------------------
+---------------------------------------------------------------
 
 select two or more bones with pressing shift
 Ctrl+P ->keep offset
 
-Disonnect more bones(In Edit Mode only)
--------------------------------------
+Disconnect more bones(In Edit Mode only)
+-----------------------------------------------------------------
 
 select two or more bones with pressing shift
 Alt+P ->clear parents
 
+Inverse Kinematics
+===============
 
+need to remove all the connection of controller bones with armature
+so
+Go to Edit Mode
+select controller bone
+Ctrl+p->disconnect
+Alt+p-->clear parent
 
+Add kinematics
+------------------------
+https://www.youtube.com/watch?v=nkNN4aJjjYg&ab_channel=PIXXO3D
+in pose mode
+select controller bone
+hold shift and select the bone which need to add constraints
+Ctrl+Shift+C or go to add constraints and select Inverse kinematics
 
+to reset transforms
+-------------------------------
+pose mode
+A
+Alt+G
+Alt+R
+Alt+S
 
+to rotate a bone
+-------------------------
+edit mode
+select bone
+Alt+P---->disconnect(not clear parent)
+select the bone hold shift and select original controller bone
+Ctrl+P---->keep offset
+go to pose mode
+Now can rotate the bone(ex: foot)
 
-
-
-
-
-
+when adding TARGET the armature better to have some nerve towards TARGET pole
